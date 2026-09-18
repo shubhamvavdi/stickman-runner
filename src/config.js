@@ -79,7 +79,7 @@ export const CONFIG = {
     adEndpoint: '',          // overrides apiBaseUrl when set
     analyticsEndpoint: '',
     apiKey: 'ghpk_42ac8d08236e605e170f5e9722b4b2183700d21d6ac848b8', // PUBLIC key only, never a server secret
-    testMode: true,          // demo creatives until an ad API is configured
+    testMode: false,          // demo creatives until an ad API is configured
     debug: false,
     bannerContainerId: 'gamehub-banner-ad',
     interstitialCooldownMs: 60000,
