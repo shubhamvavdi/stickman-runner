@@ -73,12 +73,12 @@ export const CONFIG = {
    */
   ads: {
     enabled: true,
-    gameId: 'stickman-runner',
+    gameId: '123456789',
     developerId: '',
     apiBaseUrl: '',          // e.g. 'https://api.your-gamehub.com'
     adEndpoint: '',          // overrides apiBaseUrl when set
     analyticsEndpoint: '',
-    apiKey: '',              // PUBLIC key only, never a server secret
+    apiKey: 'ghpk_42ac8d08236e605e170f5e9722b4b2183700d21d6ac848b8', // PUBLIC key only, never a server secret
     testMode: true,          // demo creatives until an ad API is configured
     debug: false,
     bannerContainerId: 'gamehub-banner-ad',
