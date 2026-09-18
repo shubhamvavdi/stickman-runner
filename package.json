@@ -1,0 +1,20 @@
+{
+  "name": "stickman-runner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Run, jump, slide and survive as long as possible in this fast-paced endless stickman runner.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node tests/logic.test.mjs",
+    "build:single": "node tools/build-single.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@gamehubsdk/gamehub-ad-sdk": "^1.0.1"
+  }
+}

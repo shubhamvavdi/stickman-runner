@@ -1,0 +1,14 @@
+{
+  "id": "stickman-runner",
+  "title": "Stickman Runner",
+  "category": "Action / Runner",
+  "tags": ["runner", "endless", "arcade", "stickman", "one-button"],
+  "description": "Run, jump, slide and survive as long as possible in this fast-paced endless stickman runner.",
+  "controls": "Keyboard + Mobile Touch",
+  "orientation": "any",
+  "path": "/games/stickman-runner/",
+  "entry": "index.html",
+  "version": "1.0.0",
+  "offline": true,
+  "events": ["ready", "game_started", "game_paused", "game_resumed", "game_over"]
+}
